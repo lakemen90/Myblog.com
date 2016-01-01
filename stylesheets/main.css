@@ -1,0 +1,29 @@
+article {
+    background: #F1F0EE;
+    width: 1030px;
+    margin: auto;
+    overflow: hidden;
+    padding: 15px;
+}
+
+
+.newlist {
+    width: 980px;
+    float: left;
+}
+
+.newlist h2 {
+    border-bottom: #AC0B0B 3px solid;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.newlist h2 span {
+    float: right;
+}
+
+.newlist h2 span a {
+    color: #000;
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+}
