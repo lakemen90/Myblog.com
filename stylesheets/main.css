@@ -1,3 +1,10 @@
+ul, li, nav {
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 article {
     background: #F1F0EE;
     width: 1030px;
@@ -26,4 +33,91 @@ article {
     color: #000;
     border-right: 1px solid #ccc;
     padding: 0 10px;
+}
+
+.resp-tabs-container h1 {
+    color: #FDB000 !important;
+}
+
+.resp-tabs-container h1 {
+    font-size: 26px;
+    color: #999;
+    text-transform: inherit;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.title_content {
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #DDD;
+}
+
+.title_content:after {
+    height: 1px;
+    display: block;
+    left: 0;
+    content: " ";
+    position: relative;
+    width: 30px;
+    top: 1px;
+}
+
+.text_content {
+    color: #FDB000;
+}
+
+.text_content {
+    display: inline-block;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding-top: 2px;
+    margin-bottom: 5px;
+	padding-left: 30px;
+}
+
+ul.about {
+    margin-bottom: 30px;
+	margin-left:30px;
+}
+.fa{
+	display:block;
+}
+
+ul.about li {
+    margin: 0;
+    color: #717171;
+    display: block;
+    font-size: 13px;
+    border-bottom: 1px solid #e6e6e6;
+	line-height: 20px;
+}
+
+#profile .about i.glyphicon {
+    margin-right: 3px;
+}
+
+#profile .about i.glyphicon, #profile .about label {
+    color: #FDB000;
+}
+
+ul.about li span.value {
+    width: 220px;
+    text-align: left;
+    float: right;
+}
+
+@media screen and (max-width: 1200px)
+ul.about li span.value {
+    width: 196px;
 }
