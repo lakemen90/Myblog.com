@@ -1,3 +1,7 @@
+p{
+    color: #999 !important;
+}
+
 ul, li, nav {
     font: inherit;
     vertical-align: baseline;
@@ -86,6 +90,8 @@ article {
 	padding-left: 30px;
 }
 
+
+
 ul.about {
     margin-bottom: 30px;
 	margin-left:30px;
@@ -107,10 +113,6 @@ ul.about li {
     margin-right: 3px;
 }
 
-#profile .about i.glyphicon, #profile .about label {
-    color: #FDB000;
-}
-
 ul.about li span.value {
     width: 220px;
     text-align: left;
@@ -121,3 +123,93 @@ ul.about li span.value {
 ul.about li span.value {
     width: 196px;
 }
+.skills{
+	margin-left:30px;
+}
+
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 22px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+}
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 11px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 22px;
+    line-height: 22px;
+}
+.skillbar-bar {
+    height: 22px;
+    width: 0;
+}
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;/*35*/
+    color: #444;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#resume .col-md-6 span.duration {
+    float: right;
+}
+#resume .col-md-6 ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+#resume .resume-left ul li h5 {
+    padding-bottom: 10px;
+}
+
+#resume .attributes li.first{
+    margin-top: 0 !important;
+	
+}
+
+#resume .attributes li{
+   margin-left:30px;
+}
+
+#resume .attributes .duration i{
+    margin-right: 5px;
+}
+
+#resume h5,#resume h6 {
+    font-weight:400 !important;
+}
+#resume .resume-left ul li h5 {
+    color: #999 !important;
+}
+
+#resume  ul li h5 {
+    color: #999 !important;
+}
+
+
+
+

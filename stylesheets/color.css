@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+#profile .about i.glyphicon, #profile .about label {
+    color: #FDB000;
+}
+
+
+#nb_post, .reply, .tag, .info-post i.glyphicon, .info i.glyphicon, i.fa-quote-left {
+    color: #FDB000 !important;
+}
+
+.skillbar-title, .skillbar-bar {
+    background: rgba(253, 176, 0, 0.8);
+}
+
+@media only screen and (max-width: 800px) {
+    .icon_menu_active, .icon_menu_hover {
+        background: #fff !important;
+        color: #FF4343 !important;
+        transition-property: background-color;
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+    }
+    h2.resp-accordion {
+        background: #FF4343  !important;
+    }
+    h2.resp-accordion:hover {
+        background: rgba(255, 67, 67, 0.8) !important;
+    }
+    h2.resp-tab-active {
+        background: rgba(255, 67, 67, 0.8) !important;
+    }
+}
+
+#resume .resume-left ul li h5 {
+    border-bottom: 1px solid #FDB000;
+}
+
+#profile .col-md-5 h2, #profile .col-md-5 h4, #resume .col-md-6 p, #resume .col-md-6 span.duration {
+    color: #FF4343;
+}
+
+#resume .col-md-6 span.duration {
+    color: #FDB000;
+}
+
+.attributes span.glyphicon, .attributes h6 {
+    color: #FDB000;
+}
+
+#resume  ul li h5 {
+    border-bottom: 1px solid #FDB000;
+    padding-bottom: 10px; 
+}
