@@ -113,6 +113,25 @@ ul.about li {
     margin-right: 3px;
 }
 
+#profile .about i.glyphicon  {
+    margin-right: 3px;
+}
+
+#profile .profile-r {
+    padding-right: 0;
+}
+
+#profile .cycle-slideshow {
+    margin-top: 19px;
+    margin-bottom: 20px;
+    width: 348px;
+    height: 456px;
+}
+
+#profile .cycle-slideshow img {
+    width: 100%;
+}
+
 ul.about li span.value {
     width: 220px;
     text-align: left;
@@ -209,7 +228,8 @@ ul.about li span.value {
 #resume  ul li h5 {
     color: #999 !important;
 }
-
-
+.tpl2{
+	margin-right: 20px;
+}
 
 
